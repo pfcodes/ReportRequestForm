@@ -1,0 +1,119 @@
+<!-- 
+    CODED FROM SCRATCH BY HAND FOR RAYBEAM, INC TEST PROJECT
+    BY PHIL FEVRY | pf@phlfvry.com :)
+-->
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Use this page to request a report from the internal report generating tool">
+  <title>Uplift | Request a Report</title>
+
+  <link rel="stylesheet" type="text/css" href="assets/styles/vendor/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/styles/vendor/calendar.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/styles/stylesheet.css">
+
+</head>
+
+<body>
+  <div class="ui container" style="width: 600px; padding-top: 10em">
+    <!-- FORM -->
+          <h3 class="ui top attached header">
+        <img src="assets/images/logo.png" style="display: inline-block; vertical-align: bottom" alt="logo" width="200" height="150">
+        Request a Report
+      </h3>
+    <div class="ui attached segment">
+
+      <!-- Introductory Copy -->
+      <p>Maybe some legal text or special instructions here:
+        <br><br>Officia ut cillum in qui est veniam dolore irure.
+      Est incididunt consequat ut quis sed cupidatat non dolor ex sint proident ut dolore ex ex deserunt voluptate ex sed id nostrud laborum do ut enim ullamco mollit nostrud.
+      </p>
+      <p>All fields are required.</p>
+      <!-- /Introductory Copy -->
+
+      <form class="ui form large">
+        <!-- Name -->
+        <div class="two fields">
+          <div class="field">
+            <input type="text" name="first-name" placeholder="First Name">
+          </div>
+          <div class="field">
+            <input type="text" name="last-name" placeholder="Last Name">
+          </div>
+        </div>
+        <!-- /Name -->
+
+        <!-- E-Mail -->
+        <div class="field">
+          <div class="ui input">
+            <input type="email" name="email" placeholder="Uplift E-Mail">
+          </div>
+        </div>
+        <!-- /E-Mail -->
+
+        <!-- Department -->
+        <div class="field">
+            <select class="ui dropdown" name="department">
+              <option value="">Department</option>
+              <option value="Marketing"><class="bar chart icon"></i>Marketing</option>
+              <option value="Growth"><i class="line chart icon"></i>Growth</option>
+              <option value="Customer Service"><i class="smile icon"></i>Customer Service</option>
+              <option value="Business Development"><i class="handshake icon"></i>Business Development</option>
+            </select>
+        </div>
+        <!-- /Department -->
+
+        <!-- Delivery Date -->
+        <div class="field">
+          <div class="ui calendar" id="date-section">
+            <div class="ui input">
+              <input type="text" name="delivery-date" placeholder="Date">
+            </div>
+          </div>
+        </div>
+        <!-- /Delivery Date -->
+
+        <!-- Code: SQL Code -->
+        <!-- /Code: SQL Code -->
+
+        <!-- Report Type -->
+        <div class="field">
+          <select multiple="" name="reports" class="ui dropdown">
+            <option value="">Report(s)</option>
+            <option value="Customer Journey">Customer Journey</option>
+            <option value="New Users">New Users</option>
+            <option value="Inactive Users">Inactive Users</option>
+            <option value="Quarter Report">Quarter Report</option>
+            <option value="Yearly Report">Yearly Report</option>
+          </select>
+        </div>
+        <!-- /Report Type -->
+
+        <!-- Submit Button -->
+        <div class="ui fluid primary animated submit button" tabindex="0" style="background-color: #5D7FF7">
+          <div class="visible content">Submit Request</div>
+          <div class="hidden content">
+            <i class="right arrow icon"></i>
+          </div>
+        </div>
+        <!-- /Submit Button -->
+
+      </form>
+      </div>
+    </div>
+    <!-- /FORM -->
+
+    <script src="assets/scripts/vendor/jquery.slim.min.js"></script>
+    <script src="assets/scripts/vendor/semantic.min.js"></script>
+    <script src="assets/scripts/vendor/calendar.min.js"></script>
+    <script src="assets/scripts/main.js"></script>
+
+</body>
+
+</html>

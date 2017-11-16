@@ -1,0 +1,20 @@
+{
+  "name": "uplift-intake-form",
+  "version": "1.0.0",
+  "description": "Test project for Raybeam, Inc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Phil Fevry",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "semantic-ui": "^2.2.13",
+    "semantic-ui-calendar": "0.0.8"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1"
+  }
+}
