@@ -1,7 +1,6 @@
 {
-  "name": "uplift-intake-form",
+  "name": "intake-form",
   "version": "1.0.0",
-  "description": "Test project for Raybeam, Inc.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"

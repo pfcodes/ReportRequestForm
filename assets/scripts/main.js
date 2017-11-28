@@ -1,7 +1,6 @@
 'use strict';
 
 (function() {
-  console.log('Code by Phil Fevry for Raybeam Inc.')
   // Initialize Semantic-UI Variables
   $('.dropdown').dropdown();
   $('.calendar#date-section').calendar({
@@ -26,7 +25,7 @@
     fields: {
       'first-name': 'empty',
       'last-name': 'empty',
-      'email': ['email', 'contains[uplift.com]'],
+      'email': ['email'],
       'department': 'empty',
       'delivery-date': 'empty',
       'reports': 'empty'
